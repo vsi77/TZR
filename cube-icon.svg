@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="cube-face-green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#88b04b"/>
+      <stop offset="100%" stop-color="#cde4a3"/>
+    </linearGradient>
+    <linearGradient id="cube-face-yellow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffd95b"/>
+      <stop offset="100%" stop-color="#ffb74d"/>
+    </linearGradient>
+    <linearGradient id="cube-face-red" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff6b6b"/>
+      <stop offset="100%" stop-color="#ff9b7b"/>
+    </linearGradient>
+  </defs>
+  <!-- "5=L -->
+  <ellipse cx="32" cy="54" rx="18" ry="4" fill="rgba(0,0,0,0.12)"/>
+
+  <!-- @020O 3@0=L -->
+  <path d="M32 10 L48 18 L48 38 L32 30 Z" fill="url(#cube-face-yellow)" stroke="#d9a43a" stroke-width="1.5"/>
+  <!-- 520O 3@0=L -->
+  <path d="M32 10 L16 18 L16 38 L32 30 Z" fill="url(#cube-face-red)" stroke="#d45353" stroke-width="1.5"/>
+  <!-- 5@E=OO 3@0=L -->
+  <path d="M16 18 L32 26 L48 18 L32 10 Z" fill="url(#cube-face-green)" stroke="#6d8f3a" stroke-width="1.5"/>
+
+  <!--  0745;5=85 =0 <0;5=L:85 :204@0BK (<8=8<0;8AB8G=>) -->
+  <path d="M24 14.5 L24 34.5 M40 14.5 L40 34.5" stroke="rgba(255,255,255,0.65)" stroke-width="1"/>
+  <path d="M18.5 21 L45.5 21 M18.5 28 L45.5 28" stroke="rgba(255,255,255,0.65)" stroke-width="1"/>
+</svg>
